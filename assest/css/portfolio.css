@@ -13,7 +13,7 @@ body{
 }
 
 .contanir{
-  max-width: 1160px;
+  max-width: 1460px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -21,6 +21,7 @@ body{
 .nav{
   display: flex;
   justify-content: space-between;
+  margin: 20px 0px 50px;
 }
 .nav_name ,.nav_text{
   font-size: 20px;
@@ -35,19 +36,31 @@ body{
 .head{
   display: flex;
   justify-content: space-between;
-  margin: 30px 0px;
+  margin: 50px 0px;
 }
 .my_img{
-  max-width: 200px;
+  max-width: 900px;
   width: 100%;
+  
 }
 .left_head{
   align-items: center;
 }
 h1{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
-.resume{
+.head_text{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.head_line{
+  font-size:40px;
+  line-height: 50px;
+}
+.icons_img{
+  margin: 20px 0px;
+}
+.icons{
   padding: 9px 6px;
   border-radius: 10px;
   
