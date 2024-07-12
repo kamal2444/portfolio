@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+body{
+  background: linear-gradient(0.25turn, #1c1a92, #4a67b8);
+  color: aliceblue;
+  font-family: "Poppins", Arial, sans-serif;
+}
+h1{
+  margin: 50px;
+}
+.about_me{
+  display: flex;
+  margin-top: 100px;
+}
+.about_img{
+  max-width: 900px;
+  width: 100%;
+}
+.my_intro{
+  font-size: large;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+}
+.about_head{
+  text-align: center;
+  letter-spacing: 9px;
+}

@@ -29,6 +29,14 @@ body{
   margin: 0px 0px 20px;
   line-height: 25px;
 }
+.kamal{
+  font-size: 40px;
+  align-items: center;
+}
+
+.logo{
+ max-width: 65px;
+}
 .nav_lift{
   display: flex;
   gap: 50px;
@@ -41,6 +49,8 @@ body{
 .my_img{
   max-width: 900px;
   width: 100%;
+  background-color: white;
+  border-radius: 1000px;
   
 }
 .left_head{
@@ -65,6 +75,7 @@ h1{
   border-radius: 10px;
   
 }
-img{
+.icons_img > a > img {
   max-width: 35px;
 }
+
