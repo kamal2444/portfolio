@@ -11,11 +11,44 @@ body{
   color: aliceblue;
   font-family: "Poppins", Arial, sans-serif;
 }
+.contanir{
+  max-width: 1460px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 50px;
+}
+.nav_name ,.nav_text{
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin: 0px 0px 20px;
+  line-height: 25px;
+}
+.kamal{
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.logo{
+ max-width: 65px;
+}
+.nav_lift{
+  display: flex;
+  gap: 50px;
+}
 h1{
   margin: 50px;
 }
 .about_me{
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr ;
+  align-items: center;
   margin-top: 100px;
 }
 .about_img{
@@ -30,4 +63,8 @@ h1{
 .about_head{
   text-align: center;
   letter-spacing: 9px;
+  font-size: 45px;
+}
+p{
+  font-size: 35px;
 }

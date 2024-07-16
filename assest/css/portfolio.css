@@ -32,6 +32,8 @@ body{
 .kamal{
   font-size: 40px;
   align-items: center;
+  display: flex;
+  gap: 20px;
 }
 
 .logo{
@@ -51,7 +53,8 @@ body{
   width: 100%;
   background-color: white;
   border-radius: 1000px;
-  
+}
+.my_img:hover{
 }
 .left_head{
   align-items: center;
@@ -72,10 +75,16 @@ h1{
 }
 .icons{
   padding: 9px 6px;
+  margin: 50px 10px;
   border-radius: 10px;
   
 }
 .icons_img > a > img {
-  max-width: 35px;
+  max-width: 45px;
 }
 
+@media screen and (min-width: 1280px) {
+  .logo{
+    max-width: 35px;
+   }
+}
