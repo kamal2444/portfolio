@@ -42,6 +42,8 @@ body{
 .nav_lift{
   display: flex;
   gap: 50px;
+  z-index: 1;
+  position:relative;
 }
 .head{
   display: flex;
@@ -51,6 +53,11 @@ body{
 .my_img{
   max-width: 900px;
   width: 100%;
+  filter: drop-shadow(20px 20px 30px red);position: relative;
+  z-index: 1;
+    z-index: 1;
+  position:relative;
+
   background-color: white;
   border-radius: 1000px;
 }
@@ -72,6 +79,8 @@ h1{
 }
 .icons_img{
   margin: 20px 0px;
+  z-index: 1;
+  position:relative;
 }
 .icons{
   padding: 9px 6px;
@@ -81,6 +90,16 @@ h1{
 }
 .icons_img > a > img {
   max-width: 45px;
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  /* z-index:-1; */
 }
 @media only screen and (min-width: 768px) {
   
