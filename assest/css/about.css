@@ -44,6 +44,8 @@ body{
 }
 h1{
   margin: 50px;
+  font-size: 45px;
+  word-spacing: 10px;
 }
 .about_me{
   display: grid;
